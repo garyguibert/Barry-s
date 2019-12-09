@@ -1,0 +1,106 @@
+.Home {
+	text-align: center;
+	color: black;
+}
+
+.header1 {
+	background-color: yellow;
+	width: 100%;
+}
+
+.grid-container {
+	background-image: url("https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&w=1000&q=80");
+	padding: 50px
+}
+
+.grid-container > div  {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px
+
+ 
+}
+
+}
+
+.title {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+
+.texte {
+	color: black;
+	font-size: 50px;
+	text-align:center;
+}
+
+
+.navigation {
+	margin: 0 ;
+  	padding: 0 ;
+  	list-style: none ;
+  	text-align:center;
+  	background-color: yellow; 
+
+}
+
+.navigation li {
+	
+	display: inline-block;
+  	font-size: 20px;
+  	padding: 5%;
+}
+
+
+.navigation2 li {
+
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px;
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.navigation2 {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px ;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+}
+
+.navigation3 {
+	width: 100px;
+	right: 10px;
+	background: yellow;
+	list-style: none;
+
+}
+
+.Titlenav {
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+
+
+}
+
+footer {
+	text-align: right;
+	margin-right: 5%;
+}
+
+
+body {
+	margin-left: 160px; /* Same as the width of the sidebar */
+  	padding: 0px 10px;
+  	font-family: "Lato", sans-serif;
+}
